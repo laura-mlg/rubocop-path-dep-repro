@@ -1,6 +1,7 @@
 config_version = "0"
 
-[source.default]
+[[source]]
+name = "default"
 includes = ["**"]
 
 # This config reproduces a customer issue where package_file = "Gemfile"
