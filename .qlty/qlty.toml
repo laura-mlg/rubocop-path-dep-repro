@@ -74,7 +74,7 @@ drivers = [
   "lint",
 ]
 version = "1.50.2"
-package_file = "Gemfile"
+extra_packages = ["rubocop-rails-omakase"]
 
 [[plugin]]
 name = "trivy"
