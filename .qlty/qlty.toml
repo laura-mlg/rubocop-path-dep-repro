@@ -75,6 +75,7 @@ drivers = [
 ]
 version = "1.50.2"
 package_file = "Gemfile"
+package_filters = ["rubocop"]
 
 [[plugin]]
 name = "trivy"
