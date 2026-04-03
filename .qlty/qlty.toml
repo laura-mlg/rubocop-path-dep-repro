@@ -1,0 +1,12 @@
+config_version = "0"
+
+[source.default]
+includes = ["**"]
+
+# This config reproduces a customer issue where package_file = "Gemfile"
+# fails because the Gemfile has path dependencies that don't exist
+# in Qlty's isolated tool cache directory.
+
+[[plugin]]
+name = "rubocop"
+package_file = "Gemfile"
